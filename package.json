@@ -1,0 +1,20 @@
+{
+  "name": "SquareChat",
+  "version": "1.0.0",
+  "description": "",
+  "author": "pedrobits <pedroksk2@gmail.com>",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "start": "./bin/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "http-errors": "^2.0.0",
+    "pino": "^8.6.1",
+    "pino-http": "^8.2.1",
+    "pino-pretty": "^9.1.1"
+  }
+}
